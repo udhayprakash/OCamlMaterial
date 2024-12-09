@@ -1,0 +1,16 @@
+{
+    "name": "OCaml Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ocamllabs.ocaml-platform",
+                "422uminotti.vscode-ocaml-formatter"
+            ]
+        }
+    },
+    "postCreateCommand": "opam config exec -- dune build",
+    "remoteUser": "opam"
+}
