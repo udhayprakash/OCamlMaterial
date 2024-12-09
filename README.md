@@ -16,7 +16,7 @@ Comprehensive OCaml programming course covering functional programming concepts.
 make setup
 make build
 make test
-
+```
 
 ## Course Content
 
